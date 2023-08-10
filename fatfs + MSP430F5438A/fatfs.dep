@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3769031143</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$TOOLKIT_DIR$\inc\msp430x54x.h</file>
+            <file>$PROJ_DIR$\src\globals.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\ffunicode.pbi</file>
+            <file>$PROJ_DIR$\src\thirdparty\FatFs\ff.h</file>
+            <file>$PROJ_DIR$\src\MSP430F5438A\timers_driver.c</file>
+            <file>$PROJ_DIR$\src\main.c</file>
+            <file>$PROJ_DIR$\src\thirdparty\FatFs\ffconf.h</file>
+            <file>$PROJ_DIR$\src\thirdparty\FatFs\diskio.h</file>
+            <file>$PROJ_DIR$\src\MSP430F5438A\uart_driver.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\ff.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ffsystem.r43</file>
+            <file>$PROJ_DIR$\src\thirdparty\FatFs\ffsystem.c</file>
+            <file>$PROJ_DIR$\src\thirdparty\FatFs\ffunicode.c</file>
+            <file>$PROJ_DIR$\src\MSP430F5438A\diskio.c</file>
+            <file>$PROJ_DIR$\src\globals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_driver.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\ffunicode.r43</file>
+            <file>$PROJ_DIR$\src\thirdparty\FatFs\ff.c</file>
+            <file>$PROJ_DIR$\src\MSP430F5438A\board.c</file>
+            <file>$PROJ_DIR$\src\MSP430F5438A\board.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\fatfs.pbd</file>
+            <file>$PROJ_DIR$\Debug\Exe\fatfs.ulp</file>
+            <file>$PROJ_DIR$\Debug\Exe\fatfs.d43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\timers_driver.r43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\1308_fatfs.ulp</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.h</file>
+            <file>$PROJ_DIR$\Debug\List\1308_fatfs.map</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\diskio.r43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_driver.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\globals.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430f5438a.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\globals.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\ffsystem.pbi</file>
+            <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\ff.r43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\timers_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\board.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\diskio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\1308_fatfs.d43</file>
+            <file>$PROJ_DIR$\Debug\Obj\board.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\timers_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\globals.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\fatfs.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\ffsystem.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ffunicode.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ff.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\diskio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 25 58</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\globals.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\MSP430F5438A\timers_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 21 2 1 30 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 1 21 2 16</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 0</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 35 28 22 47 31 26 33 39 41 21 2 1 30 16 5 8 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 28 30 5 41 33 31 22 2 1 8 21 47 39 16 38 35</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\MSP430F5438A\uart_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 21 2 1 30 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1 30 2 21 16</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\thirdparty\FatFs\ffsystem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 5 8 38 28 22 47 31 26 33 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8 38 26 28 22 33 31 5 47 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\thirdparty\FatFs\ffunicode.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 5 8 38 28 22 47 31 26 33 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 28 8 38 22 33 31 5 47 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\MSP430F5438A\diskio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 21 2 1 30 16 9 5 8 38 28 22 47 31 26 33 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5 16 1 26 28 9 2 30 22 33 31 21 8 38 47 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\thirdparty\FatFs\ff.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 35 28 22 47 31 26 33 39 41 5 8 38 9</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22 9 28 5 47 39 35 41 33 31 26 8 38</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\MSP430F5438A\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 21 2 1 30 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 2 1 16 21 30</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\fatfs.d43</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 42 45 50 34 46 12 18 43 51 27 17 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\1308_fatfs.d43</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 42 45 50 34 46 12 18 43 51 27 17 37</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

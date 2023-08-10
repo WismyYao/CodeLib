@@ -1,0 +1,3 @@
+基于MSP430F5438A的文件系统FatFs移植的例程（IAR 7.10)
+
+注意事项：disk_ioctl 中的 GET_SECTOR_COUNT，不管是返回值还是计算过程中的中间值，都需要转换成DWORD （32位）
